@@ -61,6 +61,9 @@ function Light_modifier(l::light)
     l.fl = fl
 end
 
-## 
+## soil modifier
+
+# we skiped the soil part
+    
 
 end

@@ -1,8 +1,16 @@
 module GPPSimulate
+include("Constants.jl")
+include("LimitedFactors.jl")
+
+using .Constants
+using .LimitedFactors
 using Revise
 
-export greet
 
-greet() = print("Hello World!")
+export GPPestimation
+
+function GPPestimation()
+    return β * light.radiation * light.fl * temperature.fs * vpd.fd + rand(length(light.radiation))
+end
 
 end # module GPPSimulate
