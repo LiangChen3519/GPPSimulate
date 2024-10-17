@@ -4,32 +4,45 @@ Descript: Here is a module for limitation factors in photosynthesis processes, i
 """
 
 include("Constants.jl")
-
 using .Constants
+
+export Temperature_modifier!, VPD_modifier!, Light_modifier!
 
 # we have different modifer, so can careat a abstact type
 abstract type Modifer end
 
-
-mutable struct light <: Modifer
-    radiation::Vector{T,1}
-    fl::Vector{T,1}
+mutable struct light{T <: Number} <: Modifer
+    radiation::Vector{T}
+    fl::Vector{T}
+    function light(radiation::Vector{T},fl::Vector{T} = Vector{T}()) where T <: Number
+        new{T}(radiation,fl)
+    end
 end
 
+#=
 mutable struct soil <: Modifer
+    # we skip the soil part, howevery
     swc::Vector{T,1}
     fw1::Vector{T,1}
     fw2::Vector{T,1}
 end
+=#
 
-mutable struct vpd <: Modifer
-    vapor::Vector{T,1}
-    fd::Vector{T,1}
+mutable struct vpd{T <: Number} <: Modifer
+    vapor::Vector{T}
+    fd::Vector{T}
+
+    function vpd(vapor::Vector{T}, fd::Vector{T} = Vector{T}()) where T <:Number
+        new{T}(vapor, fd)
+    end
 end
 
-mutable struct temperature <: Modifer
-    tair::Vector{T,1}
-    fs::Vector{T,1}
+mutable struct temperature{T <: Number} <: Modifer
+    tair::Vector{T}
+    fs::Vector{T}
+    function temperature(tair::Vector{T},fs::Vector{T} = Vector{T}()) where T <:Number
+        new{T}(tair,fs)
+    end
 end
 
 
@@ -37,8 +50,8 @@ end
 ## temperature modifier
 function Temperature_modifier!(t::temperature)
     X = []
-    push!(X, t.tair[0])
-    @inbounds for i in range(1,length(t.tair))
+    push!(X, t.tair[1])
+    @inbounds for i in range(2,length(t.tair))
         Xk = X[i - 1] + (1 / τ) * (t.tair[i] - X[i - 1])
         push!(X,Xk)
     end
@@ -50,20 +63,18 @@ function Temperature_modifier!(t::temperature)
 end
 
 ## vpd modifier
-function VPD_modifier(v::vpd)
-    fd = exp(v.vapor*k)
+function VPD_modifier!(v::vpd)
+    fd = exp.(v.vapor*k)
     v.fd = fd
 end
 
 ## light modifier
-function Light_modifier(l::light)
-    fl = 1 / (l.radiation*γ +1)
+function Light_modifier!(l::light)
+    fl = 1 ./ (l.radiation*γ .+ 1)
     l.fl = fl
 end
 
 ## soil modifier
 
 # we skiped the soil part
-    
-
 end

@@ -1,16 +1,19 @@
 module GPPSimulate
+
 include("Constants.jl")
 include("LimitedFactors.jl")
 
 using .Constants
 using .LimitedFactors
-using Revise
 
 
 export GPPestimation
 
-function GPPestimation()
-    return β * light.radiation * light.fl * temperature.fs * vpd.fd + rand(length(light.radiation))
+function GPPestimation(light::Vector{T} ,
+    fl::Vector{T},
+    fs::Vector{T},
+    fd::Vector{T}) where T <: Number
+    return β .* light .* fl .* fs .* fd .+ rand(length(light))
 end
 
 end # module GPPSimulate
