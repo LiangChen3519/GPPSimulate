@@ -1,0 +1,111 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v8.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v8.0": {
+      "GPPSimulations/1.0.0": {
+        "dependencies": {
+          "Microsoft.Data.Analysis": "0.22.0-preview.24378.1"
+        },
+        "runtime": {
+          "GPPSimulations.dll": {}
+        }
+      },
+      "Apache.Arrow/14.0.2": {
+        "runtime": {
+          "lib/net6.0/Apache.Arrow.dll": {
+            "assemblyVersion": "14.0.2.0",
+            "fileVersion": "14.0.2.0"
+          }
+        }
+      },
+      "Microsoft.Data.Analysis/0.22.0-preview.24378.1": {
+        "dependencies": {
+          "Apache.Arrow": "14.0.2",
+          "Microsoft.ML.DataView": "4.0.0-preview.24378.1",
+          "System.Numerics.Tensors": "9.0.0-preview.6.24327.7"
+        },
+        "runtime": {
+          "lib/net8.0/Microsoft.Data.Analysis.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "0.2200.24.37801"
+          }
+        }
+      },
+      "Microsoft.ML.DataView/4.0.0-preview.24378.1": {
+        "dependencies": {
+          "System.Collections.Immutable": "1.5.0",
+          "System.Memory": "4.5.5"
+        },
+        "runtime": {
+          "lib/netstandard2.0/Microsoft.ML.DataView.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "4.0.24.37801"
+          }
+        }
+      },
+      "System.Collections.Immutable/1.5.0": {},
+      "System.Memory/4.5.5": {},
+      "System.Numerics.Tensors/9.0.0-preview.6.24327.7": {
+        "runtime": {
+          "lib/net8.0/System.Numerics.Tensors.dll": {
+            "assemblyVersion": "9.0.0.0",
+            "fileVersion": "9.0.24.32707"
+          }
+        }
+      }
+    }
+  },
+  "libraries": {
+    "GPPSimulations/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Apache.Arrow/14.0.2": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-2xvo9q2ag/Ze7TKSMsZfcQFMk3zZKWcduttJXoYnoevZD2bv+lKnOPeleyxONuR1ZwhZ00D86pPM9TWx2GMY2w==",
+      "path": "apache.arrow/14.0.2",
+      "hashPath": "apache.arrow.14.0.2.nupkg.sha512"
+    },
+    "Microsoft.Data.Analysis/0.22.0-preview.24378.1": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-vPZHI1Z+Q9HZ/gpNG56Dsv2+W6zmleYX8vyNiZyN0d8+xlh+tWNVOEuYiIGNdtmro1WmIz0rUmgjeDLElpVDBA==",
+      "path": "microsoft.data.analysis/0.22.0-preview.24378.1",
+      "hashPath": "microsoft.data.analysis.0.22.0-preview.24378.1.nupkg.sha512"
+    },
+    "Microsoft.ML.DataView/4.0.0-preview.24378.1": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-eQCe0PzhR4B8U5TiS089eH0O/Kh9TT9bf2riCUw8HOZ2jRGTElhzzwoaPLktPisrlw247PKuNotB8fAW8RjVEw==",
+      "path": "microsoft.ml.dataview/4.0.0-preview.24378.1",
+      "hashPath": "microsoft.ml.dataview.4.0.0-preview.24378.1.nupkg.sha512"
+    },
+    "System.Collections.Immutable/1.5.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-EXKiDFsChZW0RjrZ4FYHu9aW6+P4MCgEDCklsVseRfhoO0F+dXeMSsMRAlVXIo06kGJ/zv+2w1a2uc2+kxxSaQ==",
+      "path": "system.collections.immutable/1.5.0",
+      "hashPath": "system.collections.immutable.1.5.0.nupkg.sha512"
+    },
+    "System.Memory/4.5.5": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-XIWiDvKPXaTveaB7HVganDlOCRoj03l+jrwNvcge/t8vhGYKvqV+dMv6G4SAX2NoNmN0wZfVPTAlFwZcZvVOUw==",
+      "path": "system.memory/4.5.5",
+      "hashPath": "system.memory.4.5.5.nupkg.sha512"
+    },
+    "System.Numerics.Tensors/9.0.0-preview.6.24327.7": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-cn6zteORYNd9gGBSMHZCG+e9ebG6FcugBzhdvvYvvYwsZorMaBEjSuRIcMe9uChqbsp4XFUiqDQVX5FNDk6SYg==",
+      "path": "system.numerics.tensors/9.0.0-preview.6.24327.7",
+      "hashPath": "system.numerics.tensors.9.0.0-preview.6.24327.7.nupkg.sha512"
+    }
+  }
+}

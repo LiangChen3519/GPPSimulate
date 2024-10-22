@@ -1,0 +1,78 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\liangch\\OneDrive - University of Eastern Finland\\Documents\\MY_C#\\GPPSimulations\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{EEDE72DE-E0CD-4D87-8818-98BC6D28A942}|GPPSimulations\\GPPSimulations.csproj|c:\\users\\liangch\\onedrive - university of eastern finland\\documents\\my_c#\\gppsimulations\\gppsimulations\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EEDE72DE-E0CD-4D87-8818-98BC6D28A942}|GPPSimulations\\GPPSimulations.csproj|solutionrelative:gppsimulations\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EEDE72DE-E0CD-4D87-8818-98BC6D28A942}|GPPSimulations\\GPPSimulations.csproj|c:\\users\\liangch\\onedrive - university of eastern finland\\documents\\my_c#\\gppsimulations\\gppsimulations\\modules\\dataloader.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EEDE72DE-E0CD-4D87-8818-98BC6D28A942}|GPPSimulations\\GPPSimulations.csproj|solutionrelative:gppsimulations\\modules\\dataloader.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EEDE72DE-E0CD-4D87-8818-98BC6D28A942}|GPPSimulations\\GPPSimulations.csproj|c:\\users\\liangch\\onedrive - university of eastern finland\\documents\\my_c#\\gppsimulations\\gppsimulations\\modules\\constants.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EEDE72DE-E0CD-4D87-8818-98BC6D28A942}|GPPSimulations\\GPPSimulations.csproj|solutionrelative:gppsimulations\\modules\\constants.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 4,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{aa2115a1-9712-457b-9047-dbb71ca2cdd2}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "DataLoader.cs",
+              "DocumentMoniker": "C:\\Users\\liangch\\OneDrive - University of Eastern Finland\\Documents\\MY_C#\\GPPSimulations\\GPPSimulations\\Modules\\DataLoader.cs",
+              "RelativeDocumentMoniker": "GPPSimulations\\Modules\\DataLoader.cs",
+              "ToolTip": "C:\\Users\\liangch\\OneDrive - University of Eastern Finland\\Documents\\MY_C#\\GPPSimulations\\GPPSimulations\\Modules\\DataLoader.cs",
+              "RelativeToolTip": "GPPSimulations\\Modules\\DataLoader.cs",
+              "ViewState": "AgIAAAwAAAAAAAAAAAAAAAUAAAAdAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-13T16:29:19.714Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Constants.cs",
+              "DocumentMoniker": "C:\\Users\\liangch\\OneDrive - University of Eastern Finland\\Documents\\MY_C#\\GPPSimulations\\GPPSimulations\\Modules\\Constants.cs",
+              "RelativeDocumentMoniker": "GPPSimulations\\Modules\\Constants.cs",
+              "ToolTip": "C:\\Users\\liangch\\OneDrive - University of Eastern Finland\\Documents\\MY_C#\\GPPSimulations\\GPPSimulations\\Modules\\Constants.cs",
+              "RelativeToolTip": "GPPSimulations\\Modules\\Constants.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAPAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-13T16:16:06.785Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\liangch\\OneDrive - University of Eastern Finland\\Documents\\MY_C#\\GPPSimulations\\GPPSimulations\\Program.cs",
+              "RelativeDocumentMoniker": "GPPSimulations\\Program.cs",
+              "ToolTip": "C:\\Users\\liangch\\OneDrive - University of Eastern Finland\\Documents\\MY_C#\\GPPSimulations\\GPPSimulations\\Program.cs",
+              "RelativeToolTip": "GPPSimulations\\Program.cs",
+              "ViewState": "AgIAABIAAAAAAAAAAAAiwCYAAAAxAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-13T16:11:48.353Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
